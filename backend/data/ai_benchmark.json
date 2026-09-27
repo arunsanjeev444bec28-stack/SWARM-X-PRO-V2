@@ -1,0 +1,7 @@
+{
+  "total_predictions": 1000,
+  "total_elapsed_ms": 22533.164262771606,
+  "mean_inference_ms": 22.52985978126526,
+  "median_inference_ms": 22.288918495178223,
+  "p95_inference_ms": 33.626413345336914
+}

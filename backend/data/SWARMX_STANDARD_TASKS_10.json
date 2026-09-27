@@ -1,0 +1,102 @@
+[
+  {
+    "task_id": "T01",
+    "pickup_node": "N_-14_3",
+    "dispatch_node": "N_14_3",
+    "priority": "HIGH",
+    "urgency": 2.5,
+    "deadline": 180,
+    "load": 2.5,
+    "energy_requirement": 12.0
+  },
+  {
+    "task_id": "T02",
+    "pickup_node": "N_-14_-3",
+    "dispatch_node": "N_14_-3",
+    "priority": "NORMAL",
+    "urgency": 1.5,
+    "deadline": 200,
+    "load": 3.0,
+    "energy_requirement": 14.0
+  },
+  {
+    "task_id": "T03",
+    "pickup_node": "N_-10_2",
+    "dispatch_node": "N_0_5",
+    "priority": "CRITICAL",
+    "urgency": 3.0,
+    "deadline": 120,
+    "load": 1.5,
+    "energy_requirement": 8.0
+  },
+  {
+    "task_id": "T04",
+    "pickup_node": "N_-4_2",
+    "dispatch_node": "N_14_0",
+    "priority": "HIGH",
+    "urgency": 2.0,
+    "deadline": 150,
+    "load": 2.0,
+    "energy_requirement": 10.0
+  },
+  {
+    "task_id": "T05",
+    "pickup_node": "N_4_2",
+    "dispatch_node": "N_-14_0",
+    "priority": "NORMAL",
+    "urgency": 1.2,
+    "deadline": 220,
+    "load": 1.8,
+    "energy_requirement": 9.0
+  },
+  {
+    "task_id": "T06",
+    "pickup_node": "N_10_2",
+    "dispatch_node": "N_8_6",
+    "priority": "NORMAL",
+    "urgency": 1.0,
+    "deadline": 240,
+    "load": 2.2,
+    "energy_requirement": 7.0
+  },
+  {
+    "task_id": "T07",
+    "pickup_node": "N_-10_-2",
+    "dispatch_node": "N_-8_6",
+    "priority": "HIGH",
+    "urgency": 2.2,
+    "deadline": 160,
+    "load": 3.5,
+    "energy_requirement": 11.0
+  },
+  {
+    "task_id": "T08",
+    "pickup_node": "N_-4_-2",
+    "dispatch_node": "N_0_-5",
+    "priority": "NORMAL",
+    "urgency": 1.4,
+    "deadline": 210,
+    "load": 2.0,
+    "energy_requirement": 8.5
+  },
+  {
+    "task_id": "T09",
+    "pickup_node": "N_4_-2",
+    "dispatch_node": "N_8_-6",
+    "priority": "NORMAL",
+    "urgency": 1.1,
+    "deadline": 230,
+    "load": 1.5,
+    "energy_requirement": 7.5
+  },
+  {
+    "task_id": "T10",
+    "pickup_node": "N_10_-2",
+    "dispatch_node": "N_-8_-6",
+    "priority": "CRITICAL",
+    "urgency": 2.8,
+    "deadline": 130,
+    "load": 4.0,
+    "energy_requirement": 13.0
+  }
+]

@@ -1,0 +1,40 @@
+{
+  "trained": true,
+  "selected_model": "RandomForest",
+  "total_samples": 301,
+  "train_samples": 236,
+  "test_samples": 65,
+  "unique_scenarios": 60,
+  "positive_samples": 46,
+  "negative_samples": 255,
+  "positive_percentage": 0.15282392026578073,
+  "accuracy": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "f1": 1.0,
+  "roc_auc": 1.0,
+  "latency_ms": 3.695497512817383,
+  "confusion_matrix": [
+    [
+      53,
+      0
+    ],
+    [
+      0,
+      12
+    ]
+  ],
+  "model_size_kb": 124.6181640625,
+  "feature_importance": {
+    "battery": 0.6897873491756557,
+    "estimated_energy": 0.05714292644453709,
+    "temperature": 0.04711838017478657,
+    "remaining_deadline": 0.043763815040517164,
+    "deadline": 0.0343920883915211,
+    "distance_to_pickup": 0.028641197628856578,
+    "nearby_robot_count": 0.027689222817364027,
+    "path_length": 0.02336859165084042,
+    "distance_to_dispatch": 0.020486630635059545,
+    "dynamic_obstacle_present": 0.011070792504408122
+  }
+}

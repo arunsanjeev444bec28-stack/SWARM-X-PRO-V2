@@ -1,0 +1,70 @@
+# Python environments
+.venv/
+.venv311/
+bullet_env/
+
+# Python cache
+__pycache__/
+.pytest_cache/
+*.py[cod]
+*.pyo
+*.egg-info/
+
+# Node / React / Vite
+node_modules/
+visualization/node_modules/
+visualization/dist/
+dist/
+
+# Local development
+.tools/
+.vscode/
+.idea/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Logs / temporary files
+*.log
+*.tmp
+*.bak
+
+# Old backups
+backend_backup_before_warehouse/
+backend_backup_integration/
+
+# Abandoned simulations
+webots_simulation/
+Warehouse_Simulation_matlab/
+
+# Old experimental files
+live_coppeliasim_probe.ipynb
+edge_agents_pytest.txt
+warehouse_live_result.txt
+tasks_10.json
+
+# Old presentation files
+SIH final ppt.pptx
+~$SIH final ppt.pptx
+visualization/*.tsbuildinfo
+
+# Old CoppeliaSim files
+edge_agents/simulation/coppeliasim_adapter.py
+edge_agents/simulation/coppeliasim_bridge.py
+edge_agents/simulation/create_minimal_scene.py
+edge_agents/simulation/scenes/
+edge_agents/simulation/warehouse_scene.py
+edge_agents/tests/test_coppeliasim_adapter.py
+edge_agents/tests/test_coppeliasim_bridge_path_validation.py
+edge_agents/tests/test_warehouse_scene_aliases.py
+
+# Old validation scripts
+run_phase2a.py
+verify_phase2a.py
+warehouse_live_acceptance.py
+
+# Generated TypeScript build information
+visualization/*.tsbuildinfo
+backend/api/main.py.backup_real_warehouse

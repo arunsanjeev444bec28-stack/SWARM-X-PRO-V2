@@ -1,0 +1,265 @@
+{
+  "timestamp": 1790511843.6857522,
+  "task_workload": {
+    "file": "data/tasks/demo_tasks.csv",
+    "total_tasks": 18,
+    "completed_baseline": 18,
+    "completed_swarmx": 18
+  },
+  "target": ">=20.0% reduction in total task completion time (makespan)",
+  "measured_time_reduction_percent": 36.31,
+  "target_met": true,
+  "status": "PASS",
+  "zero_collision_criterion": "PASS",
+  "baseline": {
+    "mode": "TRADITIONAL_STOP_AND_WAIT",
+    "makespan_s": 405.8,
+    "average_task_time_s": 67.31,
+    "throughput_tasks_per_min": 2.66,
+    "total_distance_m": 646.0,
+    "total_waiting_time_s": 565.5,
+    "completed_tasks": 18,
+    "failed_tasks": 0,
+    "collisions": 0,
+    "deadlocks": 0,
+    "replans": 3,
+    "robot_distances": {
+      "R1": 193.6,
+      "R2": 196.8,
+      "R3": 38.8,
+      "R4": 216.8
+    }
+  },
+  "swarmx": {
+    "mode": "SWARM_X_DECENTRALIZED",
+    "makespan_s": 258.44,
+    "average_task_time_s": 43.49,
+    "throughput_tasks_per_min": 4.18,
+    "total_distance_m": 654.0,
+    "total_waiting_time_s": 128.83,
+    "completed_tasks": 18,
+    "failed_tasks": 0,
+    "collisions": 0,
+    "near_collisions": 2,
+    "deadlocks": 0,
+    "replans": 0,
+    "robot_distances": {
+      "R1": 193.6,
+      "R2": 204.8,
+      "R3": 38.8,
+      "R4": 216.8
+    },
+    "robot_utilization_percent": {
+      "R1": 89.4,
+      "R2": 95.6,
+      "R3": 17.9,
+      "R4": 100.0
+    }
+  },
+  "collisions": {
+    "robot_robot": 0,
+    "robot_rack": 0,
+    "robot_obstacle": 0,
+    "near_collision": 2
+  },
+  "task_timeline": [
+    {
+      "task_id": "TASK_001",
+      "robot_id": "R1",
+      "start_time": 0.0,
+      "pickup_time": 4.8,
+      "completion_time": 38.0,
+      "wait_time": 6.0,
+      "distance_m": 32.0,
+      "replans": 0,
+      "status": "COMPLETED"
+    },
+    {
+      "task_id": "TASK_002",
+      "robot_id": "R3",
+      "start_time": 0.0,
+      "pickup_time": 10.16,
+      "completion_time": 46.21,
+      "wait_time": 7.41,
+      "distance_m": 38.8,
+      "replans": 0,
+      "status": "COMPLETED"
+    },
+    {
+      "task_id": "TASK_003",
+      "robot_id": "R2",
+      "start_time": 0.0,
+      "pickup_time": 9.98,
+      "completion_time": 43.34,
+      "wait_time": 6.94,
+      "distance_m": 36.4,
+      "replans": 0,
+      "status": "COMPLETED"
+    },
+    {
+      "task_id": "TASK_004",
+      "robot_id": "R4",
+      "start_time": 0.0,
+      "pickup_time": 14.02,
+      "completion_time": 32.26,
+      "wait_time": 5.06,
+      "distance_m": 27.2,
+      "replans": 0,
+      "status": "COMPLETED"
+    },
+    {
+      "task_id": "TASK_005",
+      "robot_id": "R4",
+      "start_time": 32.26,
+      "pickup_time": 44.42,
+      "completion_time": 78.47,
+      "wait_time": 7.41,
+      "distance_m": 38.8,
+      "replans": 0,
+      "status": "COMPLETED"
+    },
+    {
+      "task_id": "TASK_006",
+      "robot_id": "R1",
+      "start_time": 38.0,
+      "pickup_time": 44.42,
+      "completion_time": 69.46,
+      "wait_time": 5.06,
+      "distance_m": 26.4,
+      "replans": 0,
+      "status": "COMPLETED"
+    },
+    {
+      "task_id": "TASK_007",
+      "robot_id": "R2",
+      "start_time": 43.34,
+      "pickup_time": 53.52,
+      "completion_time": 89.58,
+      "wait_time": 9.44,
+      "distance_m": 36.8,
+      "replans": 0,
+      "status": "COMPLETED"
+    },
+    {
+      "task_id": "TASK_008",
+      "robot_id": "R4",
+      "start_time": 78.47,
+      "pickup_time": 87.25,
+      "completion_time": 121.01,
+      "wait_time": 6.94,
+      "distance_m": 35.6,
+      "replans": 0,
+      "status": "COMPLETED"
+    },
+    {
+      "task_id": "TASK_009",
+      "robot_id": "R1",
+      "start_time": 69.46,
+      "pickup_time": 82.07,
+      "completion_time": 103.39,
+      "wait_time": 5.53,
+      "distance_m": 28.4,
+      "replans": 0,
+      "status": "COMPLETED"
+    },
+    {
+      "task_id": "TASK_010",
+      "robot_id": "R2",
+      "start_time": 89.58,
+      "pickup_time": 99.11,
+      "completion_time": 142.8,
+      "wait_time": 8.82,
+      "distance_m": 44.4,
+      "replans": 0,
+      "status": "COMPLETED"
+    },
+    {
+      "task_id": "TASK_011",
+      "robot_id": "R1",
+      "start_time": 103.39,
+      "pickup_time": 124.68,
+      "completion_time": 164.42,
+      "wait_time": 10.23,
+      "distance_m": 50.8,
+      "replans": 0,
+      "status": "COMPLETED"
+    },
+    {
+      "task_id": "TASK_012",
+      "robot_id": "R4",
+      "start_time": 121.01,
+      "pickup_time": 142.0,
+      "completion_time": 161.88,
+      "wait_time": 6.47,
+      "distance_m": 34.4,
+      "replans": 0,
+      "status": "COMPLETED"
+    },
+    {
+      "task_id": "TASK_013",
+      "robot_id": "R2",
+      "start_time": 142.8,
+      "pickup_time": 164.99,
+      "completion_time": 181.67,
+      "wait_time": 6.47,
+      "distance_m": 32.4,
+      "replans": 0,
+      "status": "COMPLETED"
+    },
+    {
+      "task_id": "TASK_014",
+      "robot_id": "R4",
+      "start_time": 161.88,
+      "pickup_time": 176.4,
+      "completion_time": 218.77,
+      "wait_time": 9.29,
+      "distance_m": 47.6,
+      "replans": 0,
+      "status": "COMPLETED"
+    },
+    {
+      "task_id": "TASK_015",
+      "robot_id": "R1",
+      "start_time": 164.42,
+      "pickup_time": 196.7,
+      "completion_time": 231.12,
+      "wait_time": 10.7,
+      "distance_m": 56.0,
+      "replans": 0,
+      "status": "COMPLETED"
+    },
+    {
+      "task_id": "TASK_016",
+      "robot_id": "R2",
+      "start_time": 181.67,
+      "pickup_time": 194.89,
+      "completion_time": 213.93,
+      "wait_time": 5.06,
+      "distance_m": 27.2,
+      "replans": 0,
+      "status": "COMPLETED"
+    },
+    {
+      "task_id": "TASK_017",
+      "robot_id": "R2",
+      "start_time": 213.93,
+      "pickup_time": 229.34,
+      "completion_time": 247.06,
+      "wait_time": 5.53,
+      "distance_m": 27.6,
+      "replans": 0,
+      "status": "COMPLETED"
+    },
+    {
+      "task_id": "TASK_018",
+      "robot_id": "R4",
+      "start_time": 218.77,
+      "pickup_time": 240.16,
+      "completion_time": 258.44,
+      "wait_time": 6.47,
+      "distance_m": 33.2,
+      "replans": 0,
+      "status": "COMPLETED"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "trained": true,
+  "selected_model": "XGBoost",
+  "total_samples": 6004,
+  "train_samples": 4749,
+  "test_samples": 1255,
+  "unique_scenarios": 1207,
+  "positive_samples": 1150,
+  "negative_samples": 4854,
+  "positive_percentage": 0.19153897401732178,
+  "accuracy": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "f1": 1.0,
+  "roc_auc": 1.0,
+  "latency_ms": 3.987932205200195,
+  "confusion_matrix": [
+    [
+      1051,
+      0
+    ],
+    [
+      0,
+      204
+    ]
+  ],
+  "model_size_kb": 46.1279296875,
+  "feature_importance": {
+    "battery": 1.0,
+    "temperature": 0.0,
+    "load": 0.0,
+    "robot_health": 0.0,
+    "task_priority": 0.0,
+    "task_urgency": 0.0,
+    "distance_to_pickup": 0.0,
+    "distance_to_dispatch": 0.0,
+    "estimated_energy": 0.0,
+    "current_workload": 0.0
+  }
+}
