@@ -68,3 +68,4 @@ warehouse_live_acceptance.py
 # Generated TypeScript build information
 visualization/*.tsbuildinfo
 backend/api/main.py.backup_real_warehouse
+backend/api/main.py.backup_real_warehouse
